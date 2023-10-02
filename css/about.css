@@ -34,6 +34,7 @@ letter-spacing: -0.45px;
     align-items: center;
     justify-content: space-between;
     margin-top: 77px;
+    overflow-x: hidden;
 }
 .about_us ul li div {
     max-width: 448px;
@@ -55,4 +56,33 @@ font-size: 15px;
 font-style: normal;
 font-weight: 300;
 line-height: 24px; /* 160% */
+}
+@media(max-width: 768.9px) {
+    .about_us {
+        padding:  0 20px;
+    }
+    .about_us ul li img {
+        width: 200px;
+    }
+    .about_us ul li div h2 {
+        font-size: 30px;
+    }
+    .about_us ul li div p {
+        font-size: 12px;
+    }
+    .about_us ul li div {
+        max-width: 350px;
+    }
+}
+@media(max-width: 600px) {
+    .about_us ul {
+        margin: 0;
+        padding: 0;
+    }
+    .about_us ul li {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
 }
