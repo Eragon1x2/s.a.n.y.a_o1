@@ -161,7 +161,7 @@ header ul li {
     max-width: 403px;
   }
 }
-@media(max-width: 480px) {
+@media(max-width: 600px) {
     .hero_list {
       flex-direction: column;
       align-items: center;

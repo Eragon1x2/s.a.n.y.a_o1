@@ -3,7 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 /* Убираем внутренние отступы */
 ul[class],
 ol[class] {
@@ -106,6 +105,7 @@ header ul li:hover {
   width: 100vw;
   height: 100vh;
   background-color: white;
+  z-index: 999;
 }
 .modal_logo {
   position: absolute;

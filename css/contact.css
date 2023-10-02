@@ -2,6 +2,9 @@
     width: 500px;
     height: 500px;
 }
+body {
+  overflow-x: hidden;
+}
 .contact {
     display: flex;
     align-items: center;

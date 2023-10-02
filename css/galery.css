@@ -1,6 +1,9 @@
 .gallery_box {
     text-align: center;
 }
+body {
+    overflow-x: hidden;
+}
 .galerry_title {
     color: #363940;
     text-align: center;

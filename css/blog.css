@@ -1,5 +1,6 @@
 .blog {
     text-align: center;
+    overflow-x: hidden;
 }
 .blog_title {
     color: #363940;
