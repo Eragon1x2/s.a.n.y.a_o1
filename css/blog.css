@@ -1,0 +1,115 @@
+.blog {
+    text-align: center;
+}
+.blog_title {
+    color: #363940;
+text-align: center;
+/* 3 */
+font-family: EB Garamond;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 88.889% */
+letter-spacing: -0.45px;
+margin-top: 106px;
+}
+.blog_list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blog_list li:first-child {
+    margin-top: 70px;
+}
+.blog_list li {
+    margin-bottom: 50px;
+}
+.blog_list li img {
+    border-radius: 20px;
+}
+.blog_list li p {
+    max-width: 447px;
+}
+.blog_titles {
+color: #363940;
+font-family: Montserrat;
+font-size: 20px;
+
+font-weight: 600;
+line-height: 22px; /* 110% */
+letter-spacing: 2px;
+margin-bottom: 26px;
+}
+.blog_text {
+    color: #363940;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+letter-spacing: 1px;
+margin-bottom: 49px;
+}
+.blog_list li div {
+    text-align: start;
+}
+.blog_list li div div {
+    display: flex;
+    justify-content: space-between;
+}
+.blog_list li div div a {
+    text-decoration: underline;
+    }
+.blog_list li div div p {
+    display: flex;
+    align-items: center;
+}
+.blog_list li div div p span {
+    margin-right: 5px;
+}
+.learn {
+    color: #777E90;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+width: 322px;
+height: 40px;
+background: none;
+border-radius: 20px;
+border: 2px solid #777E90;
+margin-bottom: 50px;
+}
+
+@media(max-width: 1024px) {
+    .blog {
+        padding: 0 20px;
+    }
+    /* .blog_item__img {
+        width: 250px;
+    } */
+    .blog_list li div {
+        width: 300px;
+    }
+    
+}
+@media(max-width: 500px) {
+    .blog_list li {
+        flex-direction: column;
+    }
+    .blog_titles {
+        margin-top: 10px;
+    }
+    .blog_text {
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width: 400px) {
+    .learn {
+        width: 200px;
+    }
+}

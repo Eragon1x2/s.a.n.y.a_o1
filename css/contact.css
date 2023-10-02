@@ -1,0 +1,79 @@
+.contact_cart {
+    width: 500px;
+    height: 500px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form {
+    text-align: center;
+  }
+
+  .form_title {
+    font-family: EB Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 88.889% */
+  letter-spacing: -0.45px;
+  margin-top: 20px;
+  }
+  .form_text {
+    display: inline-block;
+    color: #3B5266;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 465px;
+  margin-top: 40px;
+  }
+  .form form {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  .form form button {
+  width: 184px;
+  height: 42px;
+  color: white;
+  gap: 11px;
+  border-radius: 100px;
+  background: #141416;
+  }
+  .form form input {
+    width: 313px;
+    height: 46px;
+    border-radius: 4px;
+  border: 1px solid #CAD1E1;
+  margin-bottom: 30px;
+  }
+.contact_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+@media(max-width: 768.9px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .contact li:first-child {
+        margin-bottom: 100px;
+    }
+}
+@media(max-width: 480px) {
+    .contact_cart {
+        width: 100%;
+    }
+}

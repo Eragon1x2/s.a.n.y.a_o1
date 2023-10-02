@@ -1,0 +1,46 @@
+.gallery_box {
+    text-align: center;
+}
+.galerry_title {
+    color: #363940;
+    text-align: center;
+    /* 3 */
+    font-family: EB Garamond;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 88.889% */
+    letter-spacing: -0.45px;
+    margin-top: 106px;
+}
+.galerry_text {
+    display: inline-block;
+    color: #363940;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 1px;
+    margin-bottom: 49px;
+    max-width: 500px;
+    margin-top: 50px;
+}
+.gallery {
+    display: grid;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.gallery img {
+    width: 300px;
+    height: 300px;
+}
+.gallery li {
+    
+}
+.gallery_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
