@@ -148,7 +148,7 @@ header ul li:hover {
   right: 10px;
   position: absolute;
 }
-@media(max-width: 425.9px) {
+@media(max-width: 600.9px) {
   header {
     display: none;
   }
@@ -207,7 +207,7 @@ footer {
     justify-content: space-between;
   }
   
-  @media(max-width: 425.9px) {
+  @media(max-width: 600.9px) {
     .footer_box {
       flex-direction: column;
       align-items: center;
